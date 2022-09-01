@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to right, #16acec, #e8950f) ;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.col-decrement {
+    background-color: rgb(235, 235, 115);
+    border: 1px solid #000000;
+    font-size: 6rem;
+    margin: 30px;
+    padding: 50px 60px 50px 60px;
+}
+
+.col-counter {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    font-size: 6rem;
+    margin: 30px;
+    padding: 50px 60px 50px 60px;
+}
+
+.col-increment {
+    background-color: rgb(8, 240, 28);
+    border: 1px solid #000000;
+    font-size: 6rem;
+    margin: 30px;
+    padding: 50px 60px 50px 60px;
+}

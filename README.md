@@ -5,9 +5,13 @@
 
 ## Funzionamento
 
-## Screenshoot
-  
+## Screenshot
+<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%201.png" alt="Screen1" style="max-width:50px;">
+<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%202.png" alt="Screen1" style="msx-width:50px;">
+
+
 ## Dettagli Tecnici
+
   ### Software
   <li> <a href="https://code.visualstudio.com/" rel=Sito1> Visual Studio Code </a> è stato il software utilizzato per la fase di programmazione.
   <li> <a href="https://desktop.github.com/" rel=Sito1> GitHub Desktop </a> è stato il software utilizzato per l'hosting del counter e l'aggiunta dei vari file per creare la repository.

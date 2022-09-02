@@ -9,13 +9,6 @@
       <li> Nel pulsante centrale è possibile visionare il cambiamento dei valori, il cuore del counter.
     <li> Il pulsante "<strong>+</strong>" consente di aggiungere valori.
 
-## Screenshot
-<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%201.png" alt="Screen1" style="max-width:50px;">
-        <br>
-        <br>
-<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%202.png" alt="Screen1" style="msx-width:50px;">
-
-
 ## Dettagli Tecnici
 
   ### Software
@@ -30,6 +23,13 @@
   <li> <strong> HTML </strong>: Per la creazione del markup del sito e l'impostazione dei pulsanti del counter.
   <li> <strong> CSS </strong>: Per assegnare uno stile grafico ai vari elementi presenti.
   <li> <strong> JavaScript </strong>: Per permettere il corretto funzionamento del counter attraverso l'implementazione degli script.
+    
+## Screenshot
+<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%201.png" alt="Screen1" style="max-width:50px;">
+        <br>
+        <br>
+<img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%202.png" alt="Screen1" style="msx-width:50px;">
+
   
 ## Autori
   <a href= "https://www.instagram.com/rewillow7/" rel="Social">Samuele Gugliotta</a>

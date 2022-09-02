@@ -35,4 +35,4 @@
   <a href= "https://www.instagram.com/rewillow7/" rel="Social">Samuele Gugliotta</a>
   
 ## Versione
-  <li> 0.1 -> Rilascio iniziale </li>
+    <li> <strong>0.1</strong> -> Rilascio iniziale </li>

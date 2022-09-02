@@ -4,9 +4,15 @@
 <p> Il seguente codice fornisce un semplice counter. Con un valore iniziale impostato a 0, è possibile aumentare o diminuire di 1 tramite gli appositi pulsanti. <p>
 
 ## Funzionamento
+  <p> Il counter si presenta formato da 3 pulsanti principali: <p>
+    <li> Il pulsante "<strong>-</strong>" consente di sottrarre valori.
+      <li> Nel pulsante centrale è possibile visionare il cambiamento dei valori, il cuore del counter.
+    <li> Il pulsante "<strong>+</strong>" consente di aggiungere valori.
 
 ## Screenshot
 <img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%201.png" alt="Screen1" style="max-width:50px;">
+        <br>
+        <br>
 <img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%202.png" alt="Screen1" style="msx-width:50px;">
 
 

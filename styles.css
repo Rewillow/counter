@@ -13,11 +13,10 @@ h1 {
 .container {
     max-width: 800px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;   
 }
 
-.row {
+.col {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +24,7 @@ h1 {
 }
 
 .col-decrement {
+    text-align: center;
     background-color: rgb(235, 235, 115);
     border: 1px solid #000000;
     font-size: 6rem;
@@ -33,6 +33,7 @@ h1 {
 }
 
 .col-counter {
+    text-align: center;
     background-color: rgb(255, 255, 255);
     border: 1px solid #000000;
     font-size: 6rem;
@@ -41,9 +42,103 @@ h1 {
 }
 
 .col-increment {
+    text-align: center;
     background-color: rgb(8, 240, 28);
     border: 1px solid #000000;
     font-size: 6rem;
     margin: 30px;
     padding: 50px 60px 50px 60px;
+}
+
+
+@media all and (max-width: 500px) {
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: linear-gradient(to right, #16acec, #e8950f) ;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 40px;
+    }
+
+    .col {
+        float: center;
+        display:grid;
+        width: auto;
+        align-items: center;
+    }
+
+    .col-decrement {
+        margin: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 20px 50px 20px 50px;
+        font-size: 5.5rem;
+    }
+
+    .col-counter {
+        margin: 25px;
+        margin-top: 10px;
+        padding: 20px 50px 20px 50px;
+        font-size: 5.5rem;
+    }
+    
+    
+    .col-increment {
+        margin: 25px;
+        margin-top: 5px;
+        padding: 20px 50px 20px 50px;
+        font-size: 5.5rem;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: linear-gradient(to right, #16acec, #e8950f) ;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 40px;
+    }
+
+    .col {
+        float: center;
+        display:grid;
+        width: auto;
+        align-items: center;
+    }
+
+    .col-decrement {
+        margin: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 25px 60px 25px 60px;
+        font-size: 5.5rem;
+    }
+
+    .col-counter {
+        margin: 25px;
+        margin-top: 10px;
+        padding: 25px 60px 25px 60px;
+        font-size: 5.5rem;
+    }
+    
+    
+    .col-increment {
+        margin: 25px;
+        margin-top: 5px;
+        padding: 25px 60px 25px 60px;
+        font-size: 5.5rem;
+    }
 }

@@ -72,14 +72,14 @@ h1 {
         margin: 25px;
         margin-top: 10px;
         margin-bottom: 20px;
-        padding: 40px 50px 40px 40px;
+        padding: 20px 50px 20px 50px;
         font-size: 5.5rem;
     }
 
     .col-counter {
         margin: 25px;
         margin-top: 10px;
-        padding: 40px 50px 40px 40px;
+        padding: 20px 50px 20px 50px;
         font-size: 5.5rem;
     }
     
@@ -87,7 +87,7 @@ h1 {
     .col-increment {
         margin: 25px;
         margin-top: 5px;
-        padding: 40px 50px 40px 40px;
+        padding: 20px 50px 20px 50px;
         font-size: 5.5rem;
     }
 }
@@ -145,18 +145,18 @@ h1 {
 @media all and (min-width: 1280px) and (max-width: 1689px) {
 
 .col-decrement {
-        padding: 60px 70px 70px 60px;
+        padding: 50px 60px 50px 60px;
         font-size: 8rem;
     }
 
     .col-counter {
-        padding: 60px 70px 70px 60px;
+        padding: 50px 60px 50px 60px;
         font-size: 8rem;
     }
     
     
     .col-increment {
-        padding: 60px 70px 70px 60px;
+        padding: 50px 60px 50px 60px;
         font-size: 8rem;
     }
 }
@@ -164,4 +164,19 @@ h1 {
 /* DISPOSITIVI 1690px */
 
 @media all and (max-width: 1690px) {
+    .col-decrement {
+        padding: 50px 60px 50px 60px;
+        font-size: 10rem;
+    }
+
+    .col-counter {
+        padding: 50px 60px 50px 60px;
+        font-size: 10rem;
+    }
+    
+    
+    .col-increment {
+        padding: 50px 60px 50px 60px;
+        font-size: 10rem;
+    }
 }

@@ -32,13 +32,14 @@
             <div class="col-counter" id="counter" onselectstart="return false;">0</div>
             <div class="col-increment" id="increment" onselectstart="return false;">+</div>
         </div>
+        <div class="cou">
+            <input type="text" class="input" id="submit" placeholder="Set the starting number"
+                autocomplete="none" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+            <button class="confirm" onclick="getValue()">✓</button>
+        </div>
     </div>
 
-    <div class="cou">
-        <input type="text" class="input" id="submit" placeholder="Imposta il numero iniziale"
-            autocomplete="none" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-        <button class="confirm" onclick="getValue()">✓</button>
-    </div>
+    
 
 </body>
 

@@ -1,42 +1,75 @@
 body {
   padding: 0px;
   margin: 0px;
-  background: linear-gradient(to right, #16acec, #e8950f);
+  background: #031b22;
   font-family: "Cabin", sans-serif;
 }
 
 h1 {
   text-align: center;
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 4.2rem;
+  font-style: italic;
 }
 
 .watch {
   text-align: center;
   width: 100%;
-  background-color: #149eda;
+  background-color: #3b4346;
   max-width: 360px;
   margin: 4rem auto;
   padding: 1rem 2rem;
   border-radius: 20px;
 }
+.watch .time {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: white;
+}
+.watch .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .watch .controls .control-watch {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
   background-color: crimson;
-  color: #ffffff;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+.watch button:hover {
+  opacity: 0.9;
 }
 
 .container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+  background-color: #3b4346;
+  max-width: 560px;
+  max-height: 450px;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  border-radius: 20px;
 }
 .container .col {
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 320px;
-  background-color: #149eda;
+  min-height: 200px;
   border-radius: 20px;
 }
 .container .col .col-decrement {
@@ -44,8 +77,9 @@ h1 {
   background-color: rgb(235, 235, 115);
   border: 1px solid #000000;
   font-size: 5rem;
-  margin: 30px;
-  padding: 50px 60px 50px 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 30px 40px 30px 40px;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -54,8 +88,9 @@ h1 {
   background-color: rgb(255, 255, 255);
   border: 1px solid #000000;
   font-size: 5rem;
-  margin: 30px;
-  padding: 50px 60px 50px 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 30px 40px 30px 40px;
   cursor: pointer;
   border-radius: 20px;
 }
@@ -64,34 +99,33 @@ h1 {
   background-color: rgb(8, 240, 28);
   border: 1px solid #000000;
   font-size: 5rem;
-  margin: 30px;
-  padding: 50px 60px 50px 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 30px 40px 30px 40px;
   cursor: pointer;
   border-radius: 20px;
 }
-
-.cou {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 130px;
+.container .cou {
+  text-align: center;
+  margin: 1px auto;
+  padding: 1rem 2rem;
+  border-radius: 20px;
 }
-.cou .input {
+.container .cou .input {
   text-align: center;
   background-color: #ffffff;
   border: 1px solid #000000;
   font-size: 1.1rem;
-  padding: 6px 90px 6px 90px;
+  padding: 6px 40px 6px 40px;
   border-radius: 10px;
 }
-
-.confirm {
+.container .cou .confirm {
   text-align: center;
   background-color: rgb(8, 240, 28);
-  margin-left: 12px;
+  margin-left: 5px;
   border: 1px solid #000000;
   font-size: 1.1rem;
-  padding: 6px 13px 6px 13px;
+  padding: 4.5px 13px 4.5px 13px;
   border-radius: 10px;
   cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

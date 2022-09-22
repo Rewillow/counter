@@ -1,142 +1,97 @@
 body {
-    padding: 0px;
-    margin: 0px;
-    background: linear-gradient(to right, #16acec, #e8950f) ;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to right, #16acec, #e8950f);
+  font-family: "Cabin", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    color: white;
-    font-size: 5rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.watch {
+  text-align: center;
+  width: 100%;
+  background-color: #149eda;
+  max-width: 360px;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.watch .controls .control-watch {
+  background-color: crimson;
+  color: #ffffff;
 }
 
 .container {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;   
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+.container .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  background-color: #149eda;
+  border-radius: 20px;
+}
+.container .col .col-decrement {
+  text-align: center;
+  background-color: rgb(235, 235, 115);
+  border: 1px solid #000000;
+  font-size: 5rem;
+  margin: 30px;
+  padding: 50px 60px 50px 60px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.container .col .col-counter {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  font-size: 5rem;
+  margin: 30px;
+  padding: 50px 60px 50px 60px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.container .col .col-increment {
+  text-align: center;
+  background-color: rgb(8, 240, 28);
+  border: 1px solid #000000;
+  font-size: 5rem;
+  margin: 30px;
+  padding: 50px 60px 50px 60px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
-.col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
+.cou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 130px;
+}
+.cou .input {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-size: 1.1rem;
+  padding: 6px 90px 6px 90px;
+  border-radius: 10px;
 }
 
-.col-decrement {
-    text-align: center;
-    background-color: rgb(235, 235, 115);
-    border: 1px solid #000000;
-    font-size: 6rem;
-    margin: 30px;
-    padding: 50px 60px 50px 60px;
-}
-
-.col-counter {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid #000000;
-    font-size: 6rem;
-    margin: 30px;
-    padding: 50px 60px 50px 60px;
-}
-
-.col-increment {
-    text-align: center;
-    background-color: rgb(8, 240, 28);
-    border: 1px solid #000000;
-    font-size: 6rem;
-    margin: 30px;
-    padding: 50px 60px 50px 60px;
-}
-
-/* DISPOSITIVI 480px (WIDTH) */
-
-@media all and (max-width: 480px) {
-
-    h1 {
-        text-align: center;
-        color: white;
-        font-size: 3.5rem;
-        margin-top: 40px;
-    }
-
-    .col {
-        float: center;
-        display:grid;
-        width: auto;
-        align-items: center;
-    }
-
-    .col-decrement {
-        margin: 25px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-
-    .col-counter {
-        margin: 25px;
-        margin-top: 10px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-    
-    
-    .col-increment {
-        margin: 25px;
-        margin-top: 5px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-}
-
-/* DISPOSITIVI 481px/736px */
-
-@media all and (min-width: 481px) and (max-width: 736px) {
-
-    h1 {
-        text-align: center;
-        color: white;
-        font-size: 3.5rem;
-        margin-top: 40px;
-    }
-
-    .col {
-        float: center;
-        display:grid;
-        width: auto;
-        align-items: center;
-    }
-
-    .col-decrement {
-        margin: 25px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-
-    .col-counter {
-        margin: 25px;
-        margin-top: 10px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-    
-    
-    .col-increment {
-        margin: 25px;
-        margin-top: 5px;
-        padding: 20px 50px 20px 50px;
-        font-size: 5.5rem;
-    }
-}
-
-/* DISPOSITIVI 737px/1279px */
-
-@media all and (min-width: 737px) and (max-width: 1279px) {
-
-}
-
+.confirm {
+  text-align: center;
+  background-color: rgb(8, 240, 28);
+  margin-left: 12px;
+  border: 1px solid #000000;
+  font-size: 1.1rem;
+  padding: 6px 13px 6px 13px;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */

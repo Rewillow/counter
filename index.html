@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,37 @@
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
+
 <body>
+
+    <h1>CHRONO-COUNTER</h1>
+
+    <div class="watch">
+        <div class="time">
+            00:00:00
+        </div>
+        <div class="controls">
+            <button class="control-watch" id="start">Start</button>
+            <button class="control-watch" id="stop">Stop</button>
+            <button class="control-watch" id="reset">Reset</button>
+        </div>
+    </div>
+
+
     <div class="container">
-        <h1>COUNTER</h1>
         <div class="col">
             <div class="col-decrement" id="decrement" onselectstart="return false;">-</div>
             <div class="col-counter" id="counter" onselectstart="return false;">0</div>
             <div class="col-increment" id="increment" onselectstart="return false;">+</div>
         </div>
     </div>
+
+    <div class="cou">
+        <input type="text" class="input" id="submit" placeholder="Imposta il numero iniziale"
+            autocomplete="none" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+        <button class="confirm" onclick="getValue()">✓</button>
+    </div>
+
 </body>
+
 </html>

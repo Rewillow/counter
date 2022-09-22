@@ -1,0 +1,117 @@
+$h1-color: #ffffff;
+$input-back: #ffffff;
+$border: #000000;
+$blu-gradient: #16acec;
+$orange-gradient: #e8950f;
+$font: 'Cabin', sans-serif;
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to right, $blu-gradient, $orange-gradient);
+    font-family: $font;
+}
+
+h1 {
+    text-align: center;
+    color: $h1-color;
+    font-size: 4rem;
+}
+
+
+.watch {
+    text-align: center;
+    width: 100%;
+    background-color: #149eda;
+    max-width: 360px;
+    margin: 4rem auto; // Per posizionarlo al centro 
+    padding: 1rem 2rem;
+    border-radius: 20px;
+
+
+    .controls {
+        .control-watch {
+            background-color: crimson;
+            color: $h1-color;
+        }
+    }
+}
+
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 150px; 
+
+    .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 320px;
+        background-color: #149eda;
+        border-radius: 20px;
+    
+        .col-decrement {
+            text-align: center;
+            background-color: rgb(235, 235, 115);
+            border: 1px solid #000000;
+            font-size: 5rem;
+            margin: 30px;
+            padding: 50px 60px 50px 60px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+    
+        .col-counter {
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #000000;
+            font-size: 5rem;
+            margin: 30px;
+            padding: 50px 60px 50px 60px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+    
+        .col-increment {
+            text-align: center;
+            background-color: rgb(8, 240, 28);
+            border: 1px solid #000000;
+            font-size: 5rem;
+            margin: 30px;
+            padding: 50px 60px 50px 60px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+    }
+}
+
+.cou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 130px;
+
+    .input {
+        text-align: center;
+        background-color: $input-back;
+        border: 1px solid $border;
+        font-size: 1.1rem;
+        padding: 6px 90px 6px 90px;
+        border-radius: 10px;
+    }
+}
+
+.confirm {
+    text-align: center;
+    background-color: rgb(8, 240, 28);
+   //  color: rgb(0, 0, 0);
+    margin-left: 12px;
+    border: 1px solid $border;
+    font-size: 1.1rem;
+    padding: 6px 13px 6px 13px;
+    border-radius: 10px;
+    cursor: pointer;
+}

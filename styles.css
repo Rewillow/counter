@@ -52,8 +52,8 @@ h1 {
   border-radius: 7px;
   transition: 0.4s;
 }
-.watch button:hover {
-  opacity: 0.9;
+.watch .controls button:active {
+  background-color: #042832;
 }
 
 .container {
@@ -75,7 +75,7 @@ h1 {
 .container .col .col-decrement {
   text-align: center;
   background-color: rgb(235, 235, 115);
-  border: 1px solid #000000;
+  border: none;
   font-size: 5rem;
   margin-right: 30px;
   margin-left: 30px;
@@ -86,7 +86,7 @@ h1 {
 .container .col .col-counter {
   text-align: center;
   background-color: rgb(255, 255, 255);
-  border: 1px solid #000000;
+  border: none;
   font-size: 5rem;
   margin-right: 30px;
   margin-left: 30px;
@@ -97,7 +97,7 @@ h1 {
 .container .col .col-increment {
   text-align: center;
   background-color: rgb(8, 240, 28);
-  border: 1px solid #000000;
+  border: none;
   font-size: 5rem;
   margin-right: 30px;
   margin-left: 30px;

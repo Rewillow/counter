@@ -69,6 +69,7 @@ h1 {
 .container .col {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 200px;
   border-radius: 20px;
 }

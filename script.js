@@ -36,6 +36,12 @@ function getValue() {
 }
 
 
+
+
+
+
+
+
 // Variabili Cronometro
 
 const time_el = document.querySelector ('.watch .time'); // Costante tempo

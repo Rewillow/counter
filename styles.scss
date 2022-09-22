@@ -1,4 +1,4 @@
-variable {
+
 $h1-color: #ffffff;
 $input-back: #ffffff;
 $border: #000000;
@@ -7,7 +7,7 @@ $orange-gradient: #e8950f;
 $font: 'Cabin', sans-serif;
 $body-color: #031b22;
 $press-button: #042832; 
-}
+
 
 
 body {
@@ -86,6 +86,7 @@ h1 {
     .col {
         display: flex;
         align-items: center;
+        justify-content: center; // Permette che, quando si presenta un numero più largo, siano tutti a spostarsi e non solo il +
         min-height: 200px;
         border-radius: 20px;
     

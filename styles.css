@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   width: 100%;
   background-color: #3b4346;
-  max-width: 360px;
+  max-width: 380px;
   margin: 4rem auto;
   padding: 1rem 2rem;
   border-radius: 20px;
@@ -75,7 +75,7 @@ h1 {
 }
 .container .col .col-decrement {
   text-align: center;
-  background-color: rgb(235, 235, 115);
+  background-color: rgb(173, 173, 14);
   border: none;
   font-size: 5rem;
   margin-right: 30px;
@@ -97,7 +97,7 @@ h1 {
 }
 .container .col .col-increment {
   text-align: center;
-  background-color: rgb(8, 240, 28);
+  background-color: rgb(7, 172, 21);
   border: none;
   font-size: 5rem;
   margin-right: 30px;
@@ -120,13 +120,25 @@ h1 {
   padding: 6px 40px 6px 40px;
   border-radius: 10px;
 }
-.container .cou .confirm {
+.container .cou .add {
+  border: none;
   text-align: center;
-  background-color: rgb(8, 240, 28);
+  background-color: rgb(78, 122, 133);
   margin-left: 5px;
-  border: 1px solid #000000;
-  font-size: 1.1rem;
-  padding: 4.5px 13px 4.5px 13px;
-  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container .cou .reset-counter {
+  border: none;
+  text-align: center;
+  background-color: crimson;
+  margin-left: 5px;
+  font-size: 1rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 7px;
+  color: #ffffff;
   cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

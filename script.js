@@ -1,49 +1,42 @@
 // Counter Script
-
+// Variabili
 var decrement = document.getElementById("decrement");
 var counter = document.getElementById("counter");
 var increment = document.getElementById("increment");
+var reset = document.getElementById ("reset-count");
+var add = document.getElementById("add");
 var count = 0;
 
 currentCount();
 
+
+
+//Funzione 
+
 function currentCount() {
     counter.innerText = count;  
 }
-
 decrement.addEventListener('click', ()=> {
     count--;
     currentCount();
 })
-
-
 increment.addEventListener('click', ()=> {
     count++;
     currentCount();  
 })
+reset.addEventListener ('click', () => {
+  count = 0;
+  counter.innerText = "0";
+})
+add.addEventListener('click', () => {
+    count = submit.value;
+    counter.innerText = submit.value;
+    submit.value = "0";
 
-
-// Inserimento valore
-
-
-let valueArray = []
-function getValue() {
-    let value = document.getElementById("submit").value
-    valueArray.push(value)
-    counter.innerText = valueArray;
-    document.getElementById("submit").value=""; //Ripulisce la casella dopo aver confermato il valore
-    valueArray.pop(); // Ripulisce l'array consentendo l'inserimento di un solo valore
-}
-
-
-
-
-
-
+})
 
 
 // Variabili Cronometro
-
 const time_el = document.querySelector ('.watch .time'); // Costante tempo
 const start_btn = document.getElementById('start'); // Costante Inizio  
 const stop_btn = document.getElementById('stop'); // Costante Stop
@@ -89,7 +82,6 @@ function reset () {
     stop(); // Per prima cosa il procedimento stoppa il tempo
     seconds = 0; // Riporta i secondi al valore di 0
     time_el.innerText = '00:00:00'; // Imposta tutto il timer al valore iniziale
-
 }
 
 

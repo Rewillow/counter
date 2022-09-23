@@ -176,7 +176,7 @@ h1 {
 
 // Sezione Responsive
 
-@media all and (min-width: 370px) and (max-width: 480px) {
+@media all and (min-width: 370px) and (max-width: 500px) {
     h1 {
         font-size: 2.4rem;
         margin-top: 40px;
@@ -254,6 +254,139 @@ h1 {
 
 }
 
+@media all and (min-width: 501px) and (max-width: 620px) {
 
+    h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+    }
 
+    .watch {
+        text-align: center;
+        max-width: 330px;
+        .time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4.8rem;
+        }
+        .controls {
+            .control-watch {
+                padding: 0.5rem 0.8rem;
+            }
+        }
+}
+.container {
+    text-align: center;
+    max-width: 350px;
+    max-height: 450px;;
+.col {
+    min-height: 150px;
+    border-radius: 20px;
 
+    .col-decrement {
+
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 15px 25px 15px 25px;    
+    }
+
+    .col-counter {
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 15px 25px 15px 25px;
+    }
+
+    .col-increment {
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 15px 25px 15px 25px;
+    }
+}
+.cou {
+    text-align: center;
+    margin: 4px auto; // Per posizionarlo al centro 
+    padding: 1rem 2rem;
+
+    .input {
+        font-size: 1rem;
+        
+    }
+
+    .add {
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    .reset-counter {
+        margin-left: 30px;
+    }
+}
+}
+}
+
+@media all and (min-width: 621px) and (max-width: 750px) {
+
+    h1 {
+        margin-top: 40px;
+    }
+
+    .watch {
+        text-align: center;
+        .time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .controls {
+            .control-watch {
+                padding: 0.5rem 0.8rem;
+            }
+        }
+}
+.container {
+    text-align: center;
+    max-width: 500px;
+    max-height: 450px;;
+.col {
+    min-height: 150px;
+    border-radius: 20px;
+    .col-decrement {
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 25px 35px 25px 35px;;    
+    }
+
+    .col-counter {
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 25px 35px 25px 35px;
+    }
+
+    .col-increment {
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 25px 35px 25px 35px;
+    }
+}
+.cou {
+    text-align: center;
+    margin: 4px auto; // Per posizionarlo al centro 
+    padding: 1rem 2rem;
+
+    .input {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .add {
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    .reset-counter {
+        margin-left: 30px;
+    }
+}
+}
+}

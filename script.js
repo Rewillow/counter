@@ -4,7 +4,7 @@
 var decrement = document.getElementById("decrement");
 var counter = document.getElementById("counter");
 var increment = document.getElementById("increment");
-var reset = document.getElementById ("reset-count");
+var clear = document.getElementById ("reset-count");
 var add = document.getElementById("add");
 var count = 0;
 
@@ -23,7 +23,7 @@ increment.addEventListener('click', ()=> {
     count++;
     currentCount();  
 })
-reset.addEventListener ('click', () => {
+clear.addEventListener ('click', () => {
   count = 0;
   counter.innerText = "0";
   submit.value= "";
@@ -40,6 +40,7 @@ add.addEventListener('click', () => {
 
 
 // Variabili Cronometro
+
 const time_el = document.querySelector ('.watch .time'); // Costante tempo
 const start_btn = document.getElementById('start'); // Costante Inizio  
 const stop_btn = document.getElementById('stop'); // Costante Stop
@@ -85,12 +86,5 @@ function reset () {
     stop(); // Per prima cosa il procedimento stoppa il tempo
     seconds = 0; // Riporta i secondi al valore di 0
     time_el.innerText = '00:00:00'; // Imposta tutto il timer al valore iniziale
+
 }
-
-
-
-
-
-
-    
-    

@@ -174,7 +174,7 @@ h1 {
 
 
 
-// Sezione Responsive
+// Sezione Mobile First
 
 @media all and (min-width: 370px) and (max-width: 500px) {
     h1 {
@@ -249,9 +249,6 @@ h1 {
     }
 }
 }
-
-
-
 }
 
 @media all and (min-width: 501px) and (max-width: 620px) {

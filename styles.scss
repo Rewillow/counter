@@ -178,6 +178,36 @@ h1 {
         font-size: 2.4rem;
         margin-top: 40px;
     }
+
+    .watch {
+        text-align: center;
+        width: 100%;
+        max-width: 260px;
+        margin: 4rem auto; // Per posizionarlo al centro 
+        padding: 1rem 2rem;
+    
+        .time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.9rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        .controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .control-watch {
+                margin: 0 0.5rem;
+                padding: 0.5rem 0.8rem;
+                border-radius: 7px;
+                transition: 0.4s;
+            }
+        }
+}
 }
 
 

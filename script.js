@@ -11,7 +11,7 @@ currentCount();
 
 
 
-//Funzione 
+// Funzioni Counter 
 
 function currentCount() {
     counter.innerText = count;  

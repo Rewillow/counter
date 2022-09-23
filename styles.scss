@@ -171,4 +171,15 @@ h1 {
 
 
 
+// Sezione Responsive
+
+@media all and (min-width: 370px) and (max-width: 480px) {
+    h1 {
+        font-size: 2.4rem;
+        margin-top: 40px;
+    }
+}
+
+
+
 

@@ -1,4 +1,5 @@
-// Counter Script
+// COUNTER
+
 // Variabili
 var decrement = document.getElementById("decrement");
 var counter = document.getElementById("counter");
@@ -8,8 +9,6 @@ var add = document.getElementById("add");
 var count = 0;
 
 currentCount();
-
-
 
 // Funzioni Counter 
 
@@ -35,6 +34,9 @@ add.addEventListener('click', () => {
     submit.value = "";
 
 })
+
+
+// CRONOMETRO
 
 
 // Variabili Cronometro

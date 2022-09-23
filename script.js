@@ -27,11 +27,12 @@ increment.addEventListener('click', ()=> {
 reset.addEventListener ('click', () => {
   count = 0;
   counter.innerText = "0";
+  submit.value= "";
 })
 add.addEventListener('click', () => {
     count = submit.value;
     counter.innerText = submit.value;
-    submit.value = "0";
+    submit.value = "";
 
 })
 

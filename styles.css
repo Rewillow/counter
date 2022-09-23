@@ -126,8 +126,8 @@ h1 {
   background-color: rgb(78, 122, 133);
   margin-left: 5px;
   margin-top: 7px;
-  font-size: 1.2rem;
-  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 7px;
   color: #ffffff;
   cursor: pointer;
@@ -137,8 +137,8 @@ h1 {
   text-align: center;
   background-color: crimson;
   margin-left: 20px;
-  font-size: 1.2rem;
-  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 7px;
   color: #ffffff;
   cursor: pointer;

@@ -21,8 +21,9 @@ body {
 h1 {
     text-align: center;
     color: $h1-color;
-    font-size: 4.2rem;
+    font-size: 4rem;
     font-style: italic;
+    margin-top: 10px;
 }
 
 
@@ -32,6 +33,7 @@ h1 {
     background-color: #3b4346;
     max-width: 380px;
     margin: 4rem auto; // Per posizionarlo al centro 
+    margin-top: 7px;
     padding: 1rem 2rem;
     border-radius: 20px;
 

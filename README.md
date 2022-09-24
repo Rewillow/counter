@@ -4,10 +4,17 @@
 <p> Il seguente codice fornisce un semplice counter. Con un valore iniziale impostato a 0, è possibile aumentare o diminuire di 1 tramite gli appositi pulsanti. <p>
 
 ## Funzionamento
-  <p> Il counter si presenta formato da 3 pulsanti principali: <p>
-    <li> Il pulsante "<strong>-</strong>" consente di sottrarre valori.
-      <li> Nel pulsante centrale è possibile visionare il cambiamento dei valori, il cuore del counter.
-    <li> Il pulsante "<strong>+</strong>" consente di aggiungere valori.
+  <p> Sotto al titolo "Chrono-Counter" è presente il cronometro.
+Esso segna i secondi, i minuti e le ore. É composto da tre tasti, quello per avviarlo, quello per stopparlo e quello 
+per resettarlo.
+
+A seguire vi è il counter vero e proprio. Si presenta anch'esso formato da tre tasti principali:
+<ul>
+<li> Il primo, con il segno meno, diminuisce di 1 il valore. </li>
+<li> Il secondo, posto al centro, è lo schermo del counter. </li>  
+<li> Il terzo, con il segno più, aumenta di 1 il valore. </li>
+</ul>
+Infine, vi è la casella che permette di inserire un numero di partenza personalizzato. Anche in questo caso si trovano due tasti, quello di conferma e quello di reset del counter. <p>
 
 ## Dettagli Tecnici
 
@@ -20,9 +27,9 @@
   
   ### Linguaggi utilizzati
   
-  <li> <strong> HTML </strong>: Per la creazione del markup del sito e l'impostazione dei pulsanti del counter.
+  <li> <strong> HTML </strong>: Per la creazione del markup del sito.
   <li> <strong> CSS </strong>: Per assegnare uno stile grafico ai vari elementi presenti.
-  <li> <strong> JavaScript </strong>: Per permettere il corretto funzionamento del counter attraverso l'implementazione degli script.
+  <li> <strong> JavaScript </strong>: Per permettere il corretto funzionamento della parte interattiva.
     
 ## Screenshot
 <img src="https://raw.githubusercontent.com/Rewillow/counter/main/img/Screen%201.png" alt="Screen1" style="max-width:50px;">

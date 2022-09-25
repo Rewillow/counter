@@ -199,7 +199,7 @@ h1 {
 .container {
     text-align: center;
     max-width: 250px;
-    max-height: 700px;
+    min-height: 530px;
     
 .col {
         float: center;
@@ -212,32 +212,32 @@ h1 {
     .col-decrement {
         margin: 10px;
         margin-top: 10px;
-        padding: 20px 30px 20px 30px;
-        font-size: 3.5rem;
+        padding: 20px 35px 20px 35px;
+        font-size: 4rem;
     }
 
     .col-counter {
         margin: 10px;
         margin-top: 10px;
-        padding: 20px 30px 20px 30px;
-        font-size: 3.5rem;
+        padding: 20px 35px 20px 35px;
+        font-size: 4rem;
     }
 
     .col-increment {
         margin: 10px;
         margin-top: 10px;
-        padding: 20px 30px 20px 30px;
-        font-size: 3.5rem;
+        padding: 20px 35px 20px 35px;
+        font-size: 4rem;
     }
 }
 .cou {
     text-align: center;
     margin: 1px auto; // Per posizionarlo al centro 
-    padding: 1rem 2rem;
+    padding: 1rem 15px;
 
     .input {
         font-size: 1rem;
-            padding: 6px 10px 6px 10px;
+        padding: 6px 10px 6px 10px;
     }
 
     .add {

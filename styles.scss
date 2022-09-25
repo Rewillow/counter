@@ -4,9 +4,15 @@ $input-back: #ffffff;
 $border: #000000;
 $blu-gradient: #16acec;
 $orange-gradient: #e8950f;
-$font: 'Cabin', sans-serif;
 $body-color: #031b22;
 $press-button: #042832; 
+$color-watch: #3b4346;
+$color-button: crimson;
+$color-add: rgb(78, 122, 133);
+$color-decrement: rgb(197, 197, 10);
+$color-increment: rgb(9, 188, 24);
+$font: 'Cabin', sans-serif;
+
 
 
 
@@ -30,7 +36,7 @@ h1 {
 .watch {
     text-align: center;
     width: 100%;
-    background-color: #3b4346;
+    background-color: $color-watch;
     max-width: 380px;
     margin: 4rem auto; // Per posizionarlo al centro 
     margin-top: 7px;
@@ -41,7 +47,7 @@ h1 {
         font-size: 5rem;
         font-weight: 400;
         margin-bottom: 1rem;
-        color: white;
+        color: $h1-color;
     }
     .controls {
         display: flex;
@@ -57,9 +63,9 @@ h1 {
             
             cursor: pointer;
     
-            color: white;
+            color: $h1-color;
             font-size: 1rem;
-            background-color: crimson;
+            background-color: $color-button;
             margin: 0 0.5rem;
             padding: 0.5rem 1rem;
             border-radius: 7px;
@@ -78,7 +84,7 @@ h1 {
 .container {
     text-align: center;
     width: 100%;
-    background-color: #3b4346;
+    background-color: $color-watch;
     max-width: 680px;
     max-height: 450px;
     margin: 4rem auto; // Per posizionarlo al centro 
@@ -94,7 +100,7 @@ h1 {
     
         .col-decrement {
             text-align: center;
-            background-color: rgb(197, 197, 10);
+            background-color: $color-decrement;
             border: none;
             font-size: 5rem;
             margin-right: 30px;
@@ -106,7 +112,7 @@ h1 {
     
         .col-counter {
             text-align: center;
-            background-color: rgb(255, 255, 255);
+            background-color: $h1-color;
             border: none;
             font-size: 5rem;
             margin-right: 30px;
@@ -118,7 +124,7 @@ h1 {
     
         .col-increment {
             text-align: center;
-            background-color: rgb(9, 188, 24);
+            background-color: $color-increment;
             border: none;
             font-size: 5rem;
             margin-right: 30px;
@@ -148,7 +154,7 @@ h1 {
     .add {
         border: none;
         text-align: center;
-        background-color: rgb(78, 122, 133);
+        background-color: $color-add;
         margin-left: 5px;
         margin-top: 7px;
         font-size: 1rem;
@@ -161,7 +167,7 @@ h1 {
     .reset-counter {
         border: none;
         text-align: center;
-        background-color: crimson;
+        background-color: $color-button;
         margin-left: 20px;
         font-size: 1rem;
         padding: 0.5rem 1rem;
@@ -199,7 +205,7 @@ h1 {
 .container {
     text-align: center;
     max-width: 250px;
-    min-height: 530px;
+    min-height: 525px;
     
 .col {
         float: center;

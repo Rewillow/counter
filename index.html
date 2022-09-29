@@ -27,12 +27,12 @@
     </div>
 
 
-    <div class="container">
-        <div class="col">
-            <div class="col-decrement" id="decrement" onselectstart="return false;">-</div>
-            <div class="col-counter" id="counter" onselectstart="return false;">0</div>
-            <div class="col-increment" id="increment" onselectstart="return false;">+</div>
-        </div>
+    <div class="container" id="container">
+       <div class="col" id="col">
+        
+    </div>
+
+    <div class="addition">
         <div class="cou">
             <input type="text" class="input" id="submit" placeholder="Set the starting number"
                 autocomplete="none" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">

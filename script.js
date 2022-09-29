@@ -1,7 +1,71 @@
 // COUNTER
 
+// Creiamo i 3 bottoni dentro il div 'col'
+
+const div = document.getElementById('col');
+
+// Creiamo il tasto decremento
+
+const btn_minus = document.createElement ('button');
+btn_minus.id = 'decrement';
+btn_minus.textContent = '-';
+div.appendChild(btn_minus);
+
+// Applichiamo gli stili al tasto decremento
+
+btn_minus.style.textAlign = 'center';
+btn_minus.style.backgroundColor = 'rgb(197, 197, 10)';
+btn_minus.style.border = 'none';
+btn_minus.style.borderRadius = '20px';
+btn_minus.style.fontSize = '5rem';
+btn_minus.style.marginLeft = '25px'
+btn_minus.style.marginRight = '25px'
+btn_minus.style.padding = '30px 40px 30px 40px';
+btn_minus.style.cursor = 'pointer';
+btn_minus.style.fontFamily = 'cabin, sans-serif';
+
+// Creiamo il visualizzatore del counter  
+const btn_counter = document.createElement ('button');
+btn_counter.id = 'counter';
+btn_counter.textContent = '0';
+div.appendChild(btn_counter);
+
+// Applichiamo gli stili al visualizzatore counter
+
+btn_counter.style.textAlign = 'center';
+btn_counter.style.backgroundColor = 'white';
+btn_counter.style.border = 'none';
+btn_counter.style.borderRadius = '20px';
+btn_counter.style.fontSize = '5rem';
+btn_counter.style.marginLeft = '25px'
+btn_counter.style.marginRight = '25px'
+btn_counter.style.padding = '30px 40px 30px 40px';
+btn_counter.style.cursor = 'pointer';
+btn_counter.style.fontFamily = 'cabin, sans-serif';
+
+// Creiamo il tasto incremento
+
+const btn_plus = document.createElement ('button');
+btn_plus.id = 'increment';
+btn_plus.textContent = '+';
+div.appendChild(btn_plus);
+
+// Applichiamo gli stili al tasto incremento
+
+btn_plus.style.textAlign = 'center';
+btn_plus.style.backgroundColor = 'rgb(9, 188, 24)';
+btn_plus.style.border = 'none';
+btn_plus.style.borderRadius = '20px';
+btn_plus.style.fontSize = '5rem';
+btn_plus.style.marginLeft = '25px'
+btn_plus.style.marginRight = '25px'
+btn_plus.style.padding = '30px 40px 30px 40px';
+btn_plus.style.cursor = 'pointer';
+btn_plus.style.fontFamily = 'cabin, sans-serif';
+
+
 // Variabili
-var decrement = document.getElementById("decrement");
+
 var counter = document.getElementById("counter");
 var increment = document.getElementById("increment");
 var clear = document.getElementById ("reset-count");
@@ -9,6 +73,7 @@ var add = document.getElementById("add");
 var count = 0;
 
 currentCount();
+
 
 // Funzioni Counter 
 
@@ -33,7 +98,8 @@ add.addEventListener('click', () => {
     counter.innerText = submit.value;
     submit.value = "";
 
-})
+}) 
+
 
 
 // CRONOMETRO
@@ -50,11 +116,13 @@ let seconds = 0;
 let interval= null;
 
 // Eventi Generali
+
 start_btn.addEventListener('click',start); // Permette che al click il cronometro si avvii
 stop_btn.addEventListener ('click', stop); 
 reset_btn.addEventListener ('click', reset);
 
 // Aggiornare il tempo
+
 function timer () {
     seconds++;
 

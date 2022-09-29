@@ -76,15 +76,13 @@ h1 {
             background-color: $press-button;
         }
     }
-
-  
 }
 
 
 .container {
     text-align: center;
     width: 100%;
-    max-width: 680px;
+    max-width: 400px;
     max-height: 450px;
     margin: 4rem auto; // Per posizionarlo al centro 
     padding: 1rem 2rem;
@@ -94,46 +92,13 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center; // Permette che, quando si presenta un numero più largo, siano tutti a spostarsi e non solo il +
-        min-height: 200px;
+        min-height: 110px;
+        margin-bottom: 30px;
         border-radius: 20px;
-    
-        .col-decrement {
-            text-align: center;
-            background-color: $color-decrement;
-            border: none;
-            font-size: 5rem;
-            margin-right: 30px;
-            margin-left: 30px;
-            padding: 30px 40px 30px 40px;
-            cursor: pointer;
-            border-radius: 20px;
-        }
-    
-        .col-counter {
-            text-align: center;
-            background-color: $h1-color;
-            border: none;
-            font-size: 5rem;
-            margin-right: 30px;
-            margin-left: 30px;
-            padding: 30px 40px 30px 40px;
-            cursor: pointer;
-            border-radius: 20px;
-        }
-    
-        .col-increment {
-            text-align: center;
-            background-color: $color-increment;
-            border: none;
-            font-size: 5rem;
-            margin-right: 30px;
-            margin-left: 30px;
-            padding: 30px 40px 30px 40px;
-            cursor: pointer;
-            border-radius: 20px;
-        }
     }
+}
 
+.addition {
     .cou {
         text-align: center;
         margin: 1px auto; // Per posizionarlo al centro 
@@ -195,6 +160,7 @@ h1 {
             justify-content: center;
             font-size: 3.9rem;
         }
+        
         .controls {
             .control-watch {
                 padding: 0.5rem 0.8rem;

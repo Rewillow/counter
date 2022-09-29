@@ -63,6 +63,10 @@ btn_plus.style.padding = '30px 40px 30px 40px';
 btn_plus.style.cursor = 'pointer';
 btn_plus.style.fontFamily = 'cabin, sans-serif';
 
+// Gestiamo il lato responsive 
+
+
+
 
 // Variabili
 
@@ -99,6 +103,29 @@ add.addEventListener('click', () => {
     submit.value = "";
 
 }) 
+
+function mobileOne (x) {
+    if (x.matches) {
+      btn_minus.style.fontSize = '4rem';
+      btn_minus.style.margin = '7px';
+      btn_minus.style.padding = '20px 35px 20px 35px';
+    
+
+      btn_counter.style.fontSize = '4rem';
+      btn_counter.style.margin = '7px';
+      btn_counter.style.padding = '20px 35px 20px 35px';
+
+      btn_plus.style.fontSize = '4rem';
+      btn_plus.style.margin = '7px';
+      btn_plus.style.padding = '20px 35px 20px 35px';
+  
+    }
+  }
+  
+  var x = window.matchMedia ("(min-width:370px)");
+  mobileOne(x);
+  x.addEventListener(mobileOne);
+ 
 
 
 

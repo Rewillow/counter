@@ -43,6 +43,7 @@ var count = 0; // Impostiamo il valore iniziale del counter a 0
 currentCount(); // Creiamo la funzione che terrà conto dei cambiamenti dei valori
 
 
+
 // Funzioni Counter 
 
 function currentCount() {

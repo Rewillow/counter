@@ -8,6 +8,7 @@
     <title>Counter</title>
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
+    
     <link rel="icon" type="image/x-icon" href="img\Favicon.png">
 </head>
 
@@ -36,7 +37,7 @@
             <input type="text" class="input" id="submit" placeholder="Set the starting number"
                 autocomplete="none" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
         </div>
-            <button class="add" id= add onclick="getValue()">Add</button>
+            <button class="add" id= "add" onclick="getValue()">Add</button>
             <button class="reset-counter" id="reset-count">Reset</button>
     </div>
 

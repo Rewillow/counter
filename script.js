@@ -6,66 +6,28 @@ const div = document.getElementById('col');
 
 // Creiamo il tasto decremento
 
-const btn_minus = document.createElement ('button');
-btn_minus.id = 'decrement';
-btn_minus.textContent = '-';
-div.appendChild(btn_minus);
+const btn_minus = document.createElement ('button'); // Creiamo un bottone
+btn_minus.id = 'decrement'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_minus.className = 'col-decrement' // Applichiamo una classe, utile per gli stili presenti nel CSS
+btn_minus.textContent = '-'; // Definiamo il testo del bottone
+div.appendChild(btn_minus); // Lo dichiariamo figlio del div 'col'
 
-// Applichiamo gli stili al tasto decremento
-
-btn_minus.style.textAlign = 'center';
-btn_minus.style.backgroundColor = 'rgb(197, 197, 10)';
-btn_minus.style.border = 'none';
-btn_minus.style.borderRadius = '20px';
-btn_minus.style.fontSize = '5rem';
-btn_minus.style.marginLeft = '25px'
-btn_minus.style.marginRight = '25px'
-btn_minus.style.padding = '30px 40px 30px 40px';
-btn_minus.style.cursor = 'pointer';
-btn_minus.style.fontFamily = 'cabin, sans-serif';
 
 // Creiamo il visualizzatore del counter  
-const btn_counter = document.createElement ('button');
-btn_counter.id = 'counter';
-btn_counter.textContent = '0';
-div.appendChild(btn_counter);
+const btn_counter = document.createElement ('button'); // Creiamo un bottone
+btn_counter.id = 'counter'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_counter.className = 'col-counter' // Applichiamo una classe, utile per gli stili presenti nel CSS
+btn_counter.textContent = '0'; // Definiamo il testo del bottone
+div.appendChild(btn_counter); // Lo dichiariamo figlio del div 'col'
 
-// Applichiamo gli stili al visualizzatore counter
-
-btn_counter.style.textAlign = 'center';
-btn_counter.style.backgroundColor = 'white';
-btn_counter.style.border = 'none';
-btn_counter.style.borderRadius = '20px';
-btn_counter.style.fontSize = '5rem';
-btn_counter.style.marginLeft = '25px'
-btn_counter.style.marginRight = '25px'
-btn_counter.style.padding = '30px 40px 30px 40px';
-btn_counter.style.cursor = 'pointer';
-btn_counter.style.fontFamily = 'cabin, sans-serif';
 
 // Creiamo il tasto incremento
 
-const btn_plus = document.createElement ('button');
-btn_plus.id = 'increment';
-btn_plus.textContent = '+';
-div.appendChild(btn_plus);
-
-// Applichiamo gli stili al tasto incremento
-
-btn_plus.style.textAlign = 'center';
-btn_plus.style.backgroundColor = 'rgb(9, 188, 24)';
-btn_plus.style.border = 'none';
-btn_plus.style.borderRadius = '20px';
-btn_plus.style.fontSize = '5rem';
-btn_plus.style.marginLeft = '25px'
-btn_plus.style.marginRight = '25px'
-btn_plus.style.padding = '30px 40px 30px 40px';
-btn_plus.style.cursor = 'pointer';
-btn_plus.style.fontFamily = 'cabin, sans-serif';
-
-// Gestiamo il lato responsive 
-
-
+const btn_plus = document.createElement ('button'); // Creiamo un bottone
+btn_plus.id = 'increment'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_plus.className = 'col-increment' // Applichiamo una classe, utile per gli stili presenti nel CSS
+btn_plus.textContent = '+'; // Definiamo il testo del bottone
+div.appendChild(btn_plus); // Lo dichiariamo figlio del div 'col'
 
 
 // Variabili
@@ -103,32 +65,7 @@ add.addEventListener('click', () => {
     submit.value = "";
 
 }) 
-
-function mobileOne (x) {
-    if (x.matches) {
-      btn_minus.style.fontSize = '4rem';
-      btn_minus.style.margin = '7px';
-      btn_minus.style.padding = '20px 35px 20px 35px';
-    
-
-      btn_counter.style.fontSize = '4rem';
-      btn_counter.style.margin = '7px';
-      btn_counter.style.padding = '20px 35px 20px 35px';
-
-      btn_plus.style.fontSize = '4rem';
-      btn_plus.style.margin = '7px';
-      btn_plus.style.padding = '20px 35px 20px 35px';
   
-    }
-  }
-  
-  var x = window.matchMedia ("(min-width:370px)");
-  mobileOne(x);
-  x.addEventListener(mobileOne);
- 
-
-
-
 // CRONOMETRO
 
 
@@ -183,3 +120,6 @@ function reset () {
     time_el.innerText = '00:00:00'; // Imposta tutto il timer al valore iniziale
 
 }
+
+
+

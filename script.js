@@ -1,21 +1,22 @@
 // COUNTER
 
-// Creiamo i 3 bottoni dentro il div 'col'
+// Stabiliamo che i 3 bottoni debbano essere dentro il div 'col', a sua volta dentro 'container'
 
 const div = document.getElementById('col');
 
 // Creiamo il tasto decremento
 
 const btn_minus = document.createElement ('button'); // Creiamo un bottone
-btn_minus.id = 'decrement'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_minus.id = 'decrement'; // Applichiamo l'id, utile per poi richiamarlo nelle variabili
 btn_minus.className = 'col-decrement' // Applichiamo una classe, utile per gli stili presenti nel CSS
 btn_minus.textContent = '-'; // Definiamo il testo del bottone
 div.appendChild(btn_minus); // Lo dichiariamo figlio del div 'col'
 
 
-// Creiamo il visualizzatore del counter  
+// Creiamo il visualizzatore del counter 
+
 const btn_counter = document.createElement ('button'); // Creiamo un bottone
-btn_counter.id = 'counter'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_counter.id = 'counter'; // Applichiamo l'id, utile per poi richiamarlo nelle variabili
 btn_counter.className = 'col-counter' // Applichiamo una classe, utile per gli stili presenti nel CSS
 btn_counter.textContent = '0'; // Definiamo il testo del bottone
 div.appendChild(btn_counter); // Lo dichiariamo figlio del div 'col'
@@ -24,7 +25,7 @@ div.appendChild(btn_counter); // Lo dichiariamo figlio del div 'col'
 // Creiamo il tasto incremento
 
 const btn_plus = document.createElement ('button'); // Creiamo un bottone
-btn_plus.id = 'increment'; // Applichiamo l'id, utile per poi richiamarlo nelle funzioni
+btn_plus.id = 'increment'; // Applichiamo l'id, utile per poi richiamarlo nelle variabili
 btn_plus.className = 'col-increment' // Applichiamo una classe, utile per gli stili presenti nel CSS
 btn_plus.textContent = '+'; // Definiamo il testo del bottone
 div.appendChild(btn_plus); // Lo dichiariamo figlio del div 'col'
@@ -32,34 +33,35 @@ div.appendChild(btn_plus); // Lo dichiariamo figlio del div 'col'
 
 // Variabili
 
-var counter = document.getElementById("counter");
-var increment = document.getElementById("increment");
-var clear = document.getElementById ("reset-count");
-var add = document.getElementById("add");
-var count = 0;
+var decrement = document.getElementById("decrement"); // Creiamo la variabile richiamando l'id 'decrement'
+var counter = document.getElementById("counter"); // Creiamo la variabile richiamando l'id 'counter'
+var increment = document.getElementById("increment"); // Creiamo la variabile richiamando l'id 'increment'
+var clear = document.getElementById ("reset-count"); // Creiamo la variabile richiamando l'id 'reset-count'
+var add = document.getElementById("add"); // Creiamo la variabile richiamando l'id 'add'
+var count = 0; // Impostiamo il valore iniziale del counter a 0
 
-currentCount();
+currentCount(); // Creiamo la funzione che terrà conto dei cambiamenti dei valori
 
 
 // Funzioni Counter 
 
 function currentCount() {
-    counter.innerText = count;  
+    counter.innerText = count;  // Diciamo che il testo dentro counter debba essere lo stesso a quello di 'count', quindi 0
 }
-decrement.addEventListener('click', ()=> {
+decrement.addEventListener('click', ()=> { // Al click il valore diminurà di 1
     count--;
     currentCount();
 })
-increment.addEventListener('click', ()=> {
+increment.addEventListener('click', ()=> { // Al click il valore aumenterà di 1
     count++;
     currentCount();  
 })
-clear.addEventListener ('click', () => {
+clear.addEventListener ('click', () => { // Al click il valore ritornerà a 0
   count = 0;
   counter.innerText = "0";
   submit.value= "";
 })
-add.addEventListener('click', () => {
+add.addEventListener('click', () => { // Al click il valore scelto verrà inserito nel counter
     count = submit.value;
     counter.innerText = submit.value;
     submit.value = "";
